@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>tg-service</artifactId>
+        <groupId>xin.betterlife</groupId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>tg-demo</artifactId>
+    <name>${project.artifactId}</name>
+    <version>1.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>xin.betterlife</groupId>
+            <artifactId>tg-core-boot</artifactId>
+            <version>${tg.tool.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>xin.betterlife</groupId>
+            <artifactId>tg-core-swagger</artifactId>
+            <version>${tg.tool.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>xin.betterlife</groupId>
+            <artifactId>tg-demo-api</artifactId>
+            <version>${tg.project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+            <version>2.5.6</version>
+        </dependency>
+    </dependencies>
+
+</project>
